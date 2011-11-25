@@ -1,0 +1,18 @@
+/**** Color ******/
+#contentInfo{
+	background-color:#8D7C6F;
+}
+
+/**** Layout ******/
+
+#content h1{
+	text-align:center;
+}
+
+#contentInfo{
+	margin:3%;
+}
+
+#contentInfo p{
+	margin:2%;
+}

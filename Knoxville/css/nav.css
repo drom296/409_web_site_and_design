@@ -1,0 +1,77 @@
+/** Layout **/
+
+#nav a{
+	text-decoration:none;
+	float:left;
+	width:100%;
+}
+
+#nav a:hover{
+	text-decoration:underline;
+}
+
+#nav{
+    height:30px;
+}
+
+#nav ul{
+    padding:0px;
+}
+
+#nav ul li{
+    display:inline;
+    line-height:28.5px;
+    float:left;
+    list-style:none;
+    position:relative;
+    padding: 0 5px 0 5px;
+}
+
+/** Second Tier **/
+#nav ul li ul{
+	/**border-width:0;**/
+    margin:0;
+    padding:0;
+    display:none;
+    position:absolute;
+    left:-1px;
+    /**top:30px;**/
+}
+
+#nav ul li:hover ul{
+    display:block;
+}
+
+#nav ul li ul li{
+	width:91.5%;
+    clear:both;
+    list-style:none;
+    display:list-item;
+}
+
+/** Third Tier **/
+#nav ul li ul li ul{
+    margin:0;
+    padding:0;
+    display:none;
+    position:absolute;
+	
+	/** Not the best solution but it works: make it start off the screen, then on hover, bring it back **/
+    left:-2000px;	/** Credit Matthew Traughber, from group: Team SU **/
+    top:0;
+    /**opacity:0;**/
+}
+
+#nav ul li ul li:hover ul{
+    display:block;
+	left:124.5px;
+    top:-1px;
+    /**opacity:100;**/
+}
+
+#nav ul li ul li ul li{
+	width: 6em;/**84%;**/
+    clear:both;
+    list-style:none;
+    display:list-item;
+}

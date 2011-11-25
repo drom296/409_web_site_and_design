@@ -1,0 +1,100 @@
+/** layout **/
+*{
+	margin:0;
+	padding:0;
+}
+
+#page{
+	width:40em;
+	border-style:solid;
+	border-width:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#banner{
+	border-style:solid;
+	border-width:0 0 2px 0;
+	cursor:pointer;
+}
+
+#footer{
+	border-style:solid;
+	border-width:2px 0 0 0;
+}
+
+#nav ul  li{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.noFloat{
+	clear:both;
+}
+
+img.bubblePic{
+	float:left;
+	margin: 1.5em 1% 1% 1%;
+}
+
+div.bubble{
+	margin:2% 10% 2%;;
+	border-style:solid;
+	border-width:1px;
+	cursor:pointer;
+	/**height:9em;**/
+}
+
+div.bubble:hover{
+	transform:scale(1.1,1.1);
+	-ms-transform:scale(1.1,1.1); /* IE 9 */
+	-moz-transform:scale(1.1,1.1); /* Firefox */
+	-webkit-transform:scale(1.1,1.1); /* Safari and Chrome */
+	-o-transform:scale(1.1,1.1); /* Opera */
+
+	transform:scale(1.065,1.065);
+	-ms-transform:scale(1.065,1.065); /* IE 9 */
+	-moz-transform:scale(1.065,1.065); /* Firefox */
+	-webkit-transform:scale(1.065,1.065); /* Safari and Chrome */
+	-o-transform:scale(1.065,1.065); /* Opera */
+}
+
+div.smallerBubble{
+	width:30em;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.bubbleHeader{
+	
+}
+
+.bubbleInfo{
+	/**
+	border-style:solid;
+	border-width:1px;
+	**/
+	margin: 0 1em 1em 1em;
+	text-align:center;
+}
+
+#TNwhy .bubbleInfo{
+	margin-bottom:1.5em;
+}
+
+#TNfun .bubbleInfo{
+	margin-bottom:2em;
+}
+
+#content h1{
+	text-align:center;
+	margin:1px;
+}
+
+#footer p{
+	text-align:center;
+/*	width: 15em;*/
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:bold;
+}

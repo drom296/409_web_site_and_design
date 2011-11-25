@@ -1,0 +1,41 @@
+You will add to your annotated.css file with descriptions of the above and 
+locations of the additions. (For easier grading!) If you fail to add to the 
+file, I might miss your additions and you will lose points.
+
+Most of the common elements have been modularized and brought in via a PHP 
+includes call:
+doctype : doctype.html
+css calls : page_parts/css_links.php
+Banner : banner2.html
+navigation : nav2.html
+footer : footer2.html 
+
+The comments folder has been created:
+-contains portions of the comments page such as:
+	|- the form for submitting a single comment
+	|- listing of previous comments
+	|- the php file that processes the form
+	
+The javascript validation is done by:
+validateCommentForm()   - located: js/validate_comment.js
+This just makes sure that none of the fields are blank
+
+If the form does not pass validation:
+-the user is alerted and the focus is focused once
+-the element is added a class via javascript and makes it noticable 
+to the user what exactly they missed
+
+Other Changes:
+-Added an identifier to the page banner
+-Added 2 more nav options
+	|- one for going home
+	|- The other for going to the comments section
+-Added some local nav to most of the pages to increase the flow of 
+	the website.
+-Changed the size of the transform on the bubbles
+-Reduced the size of the images to improve load time
+-Added more links to the footer to go to:
+	|-our indiviudal 409 homepage
+	|-the first version of this site
+	|-this version
+	|-annotated.css

@@ -1,0 +1,60 @@
+#comments h2{
+	text-align:center;
+}
+
+#comments .ident{
+	margin-left:3%;
+}
+
+#enterCommentDiv{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#8D7C6F;
+	color:#FCECD1;
+	padding:2%;
+}
+
+#enterCommentForm > input[type='text'], #enterCommentForm > textarea{
+	color:#635A57;
+	background-color:#FCECD1;
+	padding: 2px;
+}
+
+#commentSubmit{
+	margin-left: 50%;
+	padding: 2px;
+}
+
+#allComments table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.allCommentsSingleDiv{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1%;
+	background-color:#635A57;
+	padding:2%; 
+}
+
+.noFloat{
+	clear: both;
+}
+
+.allCommentsUser{
+	float: left;
+	width:30%;
+	background-color:#8D7C6F;
+	padding:2%;
+}
+
+.allCommentsSingleComment{
+	background-color:#8D7C6F;
+	float: left;
+	width: 57%;
+	margin-left: 5%;
+	padding:2%;
+}

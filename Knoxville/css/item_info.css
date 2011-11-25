@@ -1,0 +1,29 @@
+/**** Color ******/
+#content{
+	background-color:#8D7C6F;
+}
+
+/**** Layout ******/
+
+#content{
+	margin:3%;
+}
+
+#content div{
+	margin:2% 2% 4% 2%;
+}
+
+#content div img{
+	float:left;
+	margin-right:2%;
+}
+
+#itemsIntro{
+	border-style:solid;
+	border-width:0 0 3px 0;
+}
+
+#itemsIntro p{
+	margin-left:2%;
+}
+

@@ -1,0 +1,30 @@
+#title{
+	font-size: 32pt;
+	font-family: Arial;
+	background-color: yellow;
+}
+
+#col1 > p, #col2 > p{
+	font-size: 8pt;
+	font-family: Helvetica;
+}
+
+#col1 > p:first-letter, #col2 > p:first-letter{
+	font-size: 200%;
+	color: red;
+	font-family: Times;
+}
+
+code{
+	color: purple;
+}
+
+/**
+a{
+	color: green;
+}
+**/
+
+.titleChange{
+	color: orange;
+}

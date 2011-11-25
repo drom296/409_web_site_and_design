@@ -1,0 +1,62 @@
+/** Color **/
+#nav a{
+	color:#FCECD1;
+}
+
+#nav a:hover{
+	text-decoration:none;
+}
+
+#nav{
+	/** background-color:#0378A6; **/
+    color:#FCECD1;
+	/**
+	border-color:#F4CC7F;
+	border-style: solid;
+	border-width:0 0 5px 0;
+	**/
+}
+
+#nav ul li{
+	background-color:#635A57;
+	border-style:solid;
+	border-width:1px;
+	font-weight:bold;
+}
+
+#nav ul li:hover{
+    background-color:#8D7C6F;
+}
+
+/****************************************************************/
+/** Layout **/
+
+#nav ul{
+	/*	width:21.44em;*/
+	width: 60%;
+	margin-left:auto; 
+	margin-right:auto;
+
+}
+
+#nav ul li{
+	text-align:center;
+}
+
+/** Second Tier **/
+#nav ul li:hover ul{
+    width:125px;	/**This width effects #nav ul li ul li:hover ul**/
+	top:29px;
+}
+
+/** Third Tier **/
+#nav ul li ul li:hover ul{
+	/**width:60px;**/
+}
+
+#nav ul li ul li:hover ul{
+	left:124.5px;
+}
+
+
+/****** Highlighting of current path **************/

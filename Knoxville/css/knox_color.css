@@ -1,0 +1,45 @@
+/** Colors 
+http://www.colourlovers.com/palette/751751/Tennessee_Nightfall
+	#FCECD1 - biege - tennesee sky 1
+	#B6815D	- brown - tennesee sky 2
+	#8D7C6F	- burnt brown - lavdener Moon
+	#635A57 - dark grey - Burnt Taupe
+	#C8B096 - dark biege - tennesee sky 3
+**/
+
+/** Color **/
+body{
+	background-color:#635A57;
+	color:#FCECD1;
+}
+
+#page{
+	background-color:#C8B096;
+}
+
+div.bubble{
+	background-color:#8D7C6F;
+}
+
+div.bubbleInfo{
+	background-color:#8D7C6F;
+}
+
+a{
+	text-decoration:none;
+	color:#FCECD1;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#footer{
+	background-color:#8D7C6F;
+}
+
+
+#navInfo .navInfo, #navCuisine .navCuisine, #navEntertain .navEntertain, #navComments .navComments, #navHome .navHome{
+	background-color:#8D7C6F;
+	font-weight:bold;
+}

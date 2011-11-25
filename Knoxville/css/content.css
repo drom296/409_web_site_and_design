@@ -1,0 +1,7 @@
+#pageNav, #pageNav > a, #TNWhyInfo #pageNav{
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -10px; /* This is a temp fix b/c the links were going to close to the
+	bottom */
+}

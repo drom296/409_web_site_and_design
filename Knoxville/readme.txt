@@ -1,0 +1,1 @@
+main page is set to: welcome.php via an .htaccess file
