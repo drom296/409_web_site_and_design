@@ -1,17 +1,17 @@
 <?php
-				
+	// setup the db variables
+	$db_host="localhost";
+	$db_user="root";
+	$db_pswd="";
+	$db_name="409_web_dev";			
+	
 	//hook up to my db on Nova
 	// prepend @ to suppress warnings
-	$dbLink=@mysql_connect("localhost","pjm8632","PC2perri");
-	
-	// May have failed because we are running locally
-	if (!$dbLink){
-		$dbLink=@mysql_connect("localhost","root","")
-			or die("couldn't connect: ".mysql_error());
-	}
-		
+	$dbLink=@mysql_connect($db_host, $db_user, $db_pswd)
+		or die("couldn't connect: ".mysql_error());
+
 	// select database
-	mysql_select_db("pjm8632");
+	mysql_select_db($db_name);
 	
 	$clear = array();
 	//stop sql injection for $_GET
