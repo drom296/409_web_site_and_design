@@ -5,8 +5,7 @@
 			$db_host="localhost";
 			$db_user="root";
 			$db_pswd="";
-			$db_name="409_web_dev";
-			
+			$db_name="409_web_dev";			
 			
 			//hook up to my db on Nova
 			// prepend @ to suppress warnings
